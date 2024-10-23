@@ -1,0 +1,1 @@
+error[T3001]: Invalid assignment: tags cannot be assigned to a signal already initialized
