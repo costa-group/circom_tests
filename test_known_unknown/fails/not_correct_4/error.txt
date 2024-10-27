@@ -1,0 +1,13 @@
+warning[P1004]: File "not_correct_4.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "not_correct_4.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Non quadratic constraints are not allowed!
+   ┌─ "not_correct_4.circom":27:4
+   │
+27 │    out <== array[3];
+   │    ^^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->Prueba
+
+previous errors were found

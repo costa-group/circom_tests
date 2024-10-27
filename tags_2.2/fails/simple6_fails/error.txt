@@ -1,0 +1,10 @@
+warning[P1004]: File "simple6_fails.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "simple6_fails.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T2048]: Typing error found
+   ┌─ "simple6_fails.circom":25:5
+   │
+25 │     inter.value = 9;
+   │     ^^^^^^^^^^^^^^^ Tag not found in signal: only accesses to tags that appear in the definition of the signal are allowed
+
+previous errors were found

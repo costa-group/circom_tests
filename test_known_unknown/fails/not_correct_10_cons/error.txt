@@ -1,0 +1,17 @@
+warning[P1004]: File "not_correct_10_cons.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "not_correct_10_cons.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+template instances: 1
+non-linear constraints: 0
+linear constraints: 0
+public inputs: 0
+private inputs: 1
+public outputs: 1
+wires: 3
+labels: 3
+Written successfully: ./not_correct_10_cons.r1cs
+Written successfully: ./not_correct_10_cons.sym
+Written successfully: ./not_correct_10_cons_cpp/not_correct_10_cons.cpp and ./not_correct_10_cons_cpp/not_correct_10_cons.dat
+Written successfully: ./not_correct_10_cons_cpp/main.cpp, circom.hpp, calcwit.hpp, calcwit.cpp, fr.hpp, fr.cpp, fr.asm and Makefile
+Written successfully: ./not_correct_10_cons_js/not_correct_10_cons.wasm
+Everything went okay

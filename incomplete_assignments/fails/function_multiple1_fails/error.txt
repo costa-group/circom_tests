@@ -1,0 +1,14 @@
+warning[P1004]: File "function_multiple1_fails.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "function_multiple1_fails.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Typing error found: mismatched dimensions.
+ Expected length: 2, given 6
+   ┌─ "function_multiple1_fails.circom":38:9
+   │
+38 │         comp[iter].in <-- multiple_sizes(x[iter]);
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found

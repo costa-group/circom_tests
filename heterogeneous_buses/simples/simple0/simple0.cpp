@@ -261,8 +261,9 @@ if(!(ctx->componentMemory[mySubcomponents[cmp_index_ref]].inputCounter -= 1)){
 {
 PFrElement aux_dest = &signalValues[mySignalStart + ((1 * Fr_toInt(&lvar[4])) + 0)];
 // load src
+uint cmp_index_ref = ((1 * Fr_toInt(&lvar[3])) + 0);
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[3])) + 0)]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[3])) + 0)]].templateId].defs[0].offset]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset]);
 }
 {
 PFrElement aux_dest = &lvar[4];

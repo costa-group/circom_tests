@@ -1,0 +1,24 @@
+warning[P1004]: File "function_single_constraints1_fails.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "function_single_constraints1_fails.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+warning[T3001]: Typing warning: Mismatched dimensions, assigning to an array an expression of smaller length, the remaining positions are not modified. Initially all variables are initialized to 0.
+  Expected length: 4, given 1
+   ┌─ "function_single_constraints1_fails.circom":19:5
+   │
+19 │     aux = multiple_sizes(0);
+   │     ^^^^^^^^^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+error[T3001]: Typing error found: mismatched dimensions.
+ Expected length: 4, given 1
+   ┌─ "function_single_constraints1_fails.circom":24:5
+   │
+24 │     in[0] === multiple_sizes(0);
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found

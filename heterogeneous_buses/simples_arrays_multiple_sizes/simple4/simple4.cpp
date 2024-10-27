@@ -405,7 +405,7 @@ Fr_eq(&expaux[0],&lvar[12],&circuitConstants[5]); // line circom 41
 if(Fr_isTrue(&expaux[0])){
 {
 uint cmp_index_ref = 0;
-std::map<int,int> size_store {{0,2},{1,6},{2,8}};
+std::map<int,int> size_store {{2,8},{0,2},{1,6}};
 {
 uint map_accesses_aux[2];
 {
@@ -433,7 +433,7 @@ if(!(ctx->componentMemory[mySubcomponents[cmp_index_ref]].inputCounter -= std::m
 }
 {
 uint cmp_index_ref = 0;
-std::map<int,int> size_store {{0,2},{1,6},{2,8}};
+std::map<int,int> size_store {{2,8},{0,2},{1,6}};
 {
 uint map_accesses_aux[2];
 {
@@ -464,7 +464,7 @@ Fr_eq(&expaux[0],&lvar[12],&circuitConstants[6]); // line circom 44
 if(Fr_isTrue(&expaux[0])){
 {
 uint cmp_index_ref = 1;
-std::map<int,int> size_store {{0,2},{1,6},{2,8}};
+std::map<int,int> size_store {{2,8},{0,2},{1,6}};
 {
 uint map_accesses_aux[2];
 {
@@ -492,7 +492,7 @@ if(!(ctx->componentMemory[mySubcomponents[cmp_index_ref]].inputCounter -= std::m
 }
 {
 uint cmp_index_ref = 1;
-std::map<int,int> size_store {{0,2},{1,6},{2,8}};
+std::map<int,int> size_store {{2,8},{0,2},{1,6}};
 {
 uint map_accesses_aux[2];
 {
@@ -521,7 +521,7 @@ if(!(ctx->componentMemory[mySubcomponents[cmp_index_ref]].inputCounter -= std::m
 }else{
 {
 uint cmp_index_ref = 2;
-std::map<int,int> size_store {{0,2},{1,6},{2,8}};
+std::map<int,int> size_store {{2,8},{0,2},{1,6}};
 {
 uint map_accesses_aux[2];
 {
@@ -549,7 +549,7 @@ if(!(ctx->componentMemory[mySubcomponents[cmp_index_ref]].inputCounter -= std::m
 }
 {
 uint cmp_index_ref = 2;
-std::map<int,int> size_store {{0,2},{1,6},{2,8}};
+std::map<int,int> size_store {{2,8},{0,2},{1,6}};
 {
 uint map_accesses_aux[2];
 {
@@ -589,8 +589,9 @@ Fr_lt(&expaux[0],&lvar[13],&lvar[((1 * Fr_toInt(&lvar[12])) + 9)]); // line circ
 {
 PFrElement aux_dest = &signalValues[mySignalStart + ((1 * Fr_toInt(&lvar[12])) + 0)];
 // load src
+uint cmp_index_ref = ((1 * Fr_toInt(&lvar[12])) + 0);
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[12])) + 0)]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[12])) + 0)]].templateId].defs[0].offset+(0)*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[12])) + 0)]].templateId].defs[0].size+ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[12])) + 0)]].templateId].defs[0].busId].defs[1].offset+(0)*ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[12])) + 0)]].templateId].defs[0].busId].defs[1].size]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset+(0)*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].size+ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].busId].defs[1].offset+(0)*ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].busId].defs[1].size]);
 }
 {
 PFrElement aux_dest = &lvar[12];

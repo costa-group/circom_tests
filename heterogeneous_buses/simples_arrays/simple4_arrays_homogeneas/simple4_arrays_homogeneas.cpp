@@ -393,8 +393,9 @@ Fr_lt(&expaux[0],&lvar[13],&circuitConstants[0]); // line circom 40
 {
 PFrElement aux_dest = &signalValues[mySignalStart + ((1 * Fr_toInt(&lvar[12])) + 0)];
 // load src
+uint cmp_index_ref = ((1 * Fr_toInt(&lvar[12])) + 0);
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[12])) + 0)]].signalStart + 2]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + 2]);
 }
 {
 PFrElement aux_dest = &lvar[12];

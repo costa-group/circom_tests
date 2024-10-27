@@ -1,0 +1,40 @@
+warning[P1004]: File "simple0_left.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "simple0_left.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T2O461-A]: Typing error found
+   ┌─ "simple0_left.circom":49:5
+   │
+49 │     b_aux[0].in[a_aux[1].out] <-- 777;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Assigments to signals within an unknown access to an array of components are not allowed
+
+error[T2O461-A]: Typing error found
+   ┌─ "simple0_left.circom":50:5
+   │
+50 │     b_aux[0].in[a_aux[2].out] <-- 77777;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Assigments to signals within an unknown access to an array of components are not allowed
+
+error[T2O461-A]: Typing error found
+   ┌─ "simple0_left.circom":53:5
+   │
+53 │     b_aux[1].in[a_aux[1].out] <-- 999;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Assigments to signals within an unknown access to an array of components are not allowed
+
+error[T2O461-A]: Typing error found
+   ┌─ "simple0_left.circom":54:5
+   │
+54 │     b_aux[1].in[a_aux[2].out] <-- 99999;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Assigments to signals within an unknown access to an array of components are not allowed
+
+error[T2O461-A]: Typing error found
+   ┌─ "simple0_left.circom":57:5
+   │
+57 │     b_aux[2].in[a_aux[1].out] <-- 333;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Assigments to signals within an unknown access to an array of components are not allowed
+
+error[T2O461-A]: Typing error found
+   ┌─ "simple0_left.circom":58:5
+   │
+58 │     b_aux[2].in[a_aux[2].out] <-- 33333;
+   │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Assigments to signals within an unknown access to an array of components are not allowed
+
+previous errors were found

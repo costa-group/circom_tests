@@ -1,0 +1,13 @@
+warning[P1004]: File "simple8_fails.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "simple8_fails.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Invalid assignment: tags cannot be assigned to a signal already initialized
+   ┌─ "simple8_fails.circom":26:5
+   │
+26 │     inter.value = 9;
+   │     ^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found

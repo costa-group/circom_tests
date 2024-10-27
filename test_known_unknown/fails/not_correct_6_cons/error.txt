@@ -1,0 +1,13 @@
+warning[P1004]: File "not_correct_6_cons.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "not_correct_6_cons.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Exception caused by invalid access: trying to access to a signal that is not initialized
+   ┌─ "not_correct_6_cons.circom":16:7
+   │
+16 │       out === in * in;
+   │       ^^^ found here
+   │
+   = call trace:
+     ->Prueba
+
+previous errors were found

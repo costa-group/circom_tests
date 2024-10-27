@@ -1,0 +1,10 @@
+warning[P1004]: File "error_comp.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "error_comp.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T2062]: Typing error found
+   ┌─ "error_comp.circom":25:15
+   │
+25 │     aux.tag = in;
+   │               ^^ Tags cannot be assigned to values that can be unknown during the constraint generation phase
+
+previous errors were found

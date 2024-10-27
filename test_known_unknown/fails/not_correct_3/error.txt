@@ -1,0 +1,10 @@
+warning[P1004]: File "not_correct_3.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "not_correct_3.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T20462]: Typing error found
+   ┌─ "not_correct_3.circom":19:12
+   │
+19 │    out <== array[x];
+   │            ^^^^^^^^ Non-quadratic constraint was detected statically, using unknown index will cause the constraint to be non-quadratic
+
+previous errors were found

@@ -476,8 +476,9 @@ Fr_lt(&expaux[0],&lvar[7],&lvar[((1 * Fr_toInt(&lvar[6])) + 3)]); // line circom
 {
 PFrElement aux_dest = &signalValues[mySignalStart + ((1 * Fr_toInt(&lvar[6])) + 0)];
 // load src
+uint cmp_index_ref = ((1 * Fr_toInt(&lvar[6])) + 0);
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[6])) + 0)]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[6])) + 0)]].templateId].defs[0].offset+ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[6])) + 0)]].templateId].defs[0].busId].defs[1].offset+((0)*(ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[6])) + 0)]].templateId].defs[0].busId].defs[1].lengths[0])+1)*ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[((1 * Fr_toInt(&lvar[6])) + 0)]].templateId].defs[0].busId].defs[1].size]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset+ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].busId].defs[1].offset+((0)*(ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].busId].defs[1].lengths[0])+1)*ctx->busInsId2FieldInfo[ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].busId].defs[1].size]);
 }
 {
 PFrElement aux_dest = &lvar[6];

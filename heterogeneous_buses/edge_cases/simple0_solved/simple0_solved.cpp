@@ -482,38 +482,44 @@ aux_cmp_num += 0;
 {
 PFrElement aux_dest = &lvar[0];
 // load src
+uint cmp_index_ref = 0;
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[0]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[0]].templateId].defs[0].offset]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset]);
 }
 {
 PFrElement aux_dest = &signalValues[mySignalStart + 0];
 // load src
+uint cmp_index_ref = 3;
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[3]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[3]].templateId].defs[0].offset+(Fr_toInt(&lvar[0]))*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[3]].templateId].defs[0].size]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset+(Fr_toInt(&lvar[0]))*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].size]);
 }
 {
 PFrElement aux_dest = &lvar[1];
 // load src
+uint cmp_index_ref = 1;
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[1]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[1]].templateId].defs[0].offset]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset]);
 }
 {
 PFrElement aux_dest = &signalValues[mySignalStart + 1];
 // load src
+uint cmp_index_ref = 4;
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[4]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[4]].templateId].defs[0].offset+(Fr_toInt(&lvar[1]))*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[4]].templateId].defs[0].size]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset+(Fr_toInt(&lvar[1]))*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].size]);
 }
 {
 PFrElement aux_dest = &lvar[2];
 // load src
+uint cmp_index_ref = 2;
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[2]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[2]].templateId].defs[0].offset]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset]);
 }
 {
 PFrElement aux_dest = &signalValues[mySignalStart + 2];
 // load src
+uint cmp_index_ref = 5;
 // end load src
-Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[5]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[5]].templateId].defs[0].offset+(Fr_toInt(&lvar[2]))*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[5]].templateId].defs[0].size]);
+Fr_copy(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].offset+(Fr_toInt(&lvar[2]))*ctx->templateInsId2IOSignalInfo[ctx->componentMemory[mySubcomponents[cmp_index_ref]].templateId].defs[0].size]);
 }
 for (uint i = 0; i < 6; i++){
 uint index_subc = ctx->componentMemory[ctx_index].subcomponents[i];

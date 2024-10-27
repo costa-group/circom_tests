@@ -1,0 +1,14 @@
+warning[P1004]: File "single2_fails.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "single2_fails.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Invalid assignment: missing tags required by input signal. 
+ Missing tag: input signal in requires tag value
+   ┌─ "single2_fails.circom":37:5
+   │
+37 │     comp.in <-- aux;
+   │     ^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found

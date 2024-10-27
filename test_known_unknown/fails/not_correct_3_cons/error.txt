@@ -1,0 +1,10 @@
+warning[P1004]: File "not_correct_3_cons.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "not_correct_3_cons.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T2005]: Typing error found
+   ┌─ "not_correct_3_cons.circom":13:8
+   │
+13 │    if (y == 1){
+   │        ^^^^^^ There are constraints depending on the value of the condition and it can be unknown during the constraint generation phase
+
+previous errors were found

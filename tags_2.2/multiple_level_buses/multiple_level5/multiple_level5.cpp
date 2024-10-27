@@ -291,8 +291,9 @@ B_1_run(mySubcomponents[cmp_index_ref],ctx);
 {
 PFrElement aux_dest = &signalValues[mySignalStart + 0];
 // load src
+uint cmp_index_ref = 0;
 // end load src
-Fr_copyn(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[0]].signalStart + 0],8);
+Fr_copyn(aux_dest,&ctx->signalValues[ctx->componentMemory[mySubcomponents[cmp_index_ref]].signalStart + 0],8);
 }
 for (uint i = 0; i < 1; i++){
 uint index_subc = ctx->componentMemory[ctx_index].subcomponents[i];

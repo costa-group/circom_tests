@@ -1,0 +1,13 @@
+warning[P1004]: File "not_correct_11_cons.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "not_correct_11_cons.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Array dimension with unknown size
+   ┌─ "not_correct_11_cons.circom":10:7
+   │
+10 │       var array[x];
+   │       ^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->Prueba
+
+previous errors were found

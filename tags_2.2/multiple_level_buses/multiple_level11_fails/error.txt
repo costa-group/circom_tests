@@ -1,1 +1,0 @@
-error[T3001]: Invalid assignment: missing tags required by input signal. 

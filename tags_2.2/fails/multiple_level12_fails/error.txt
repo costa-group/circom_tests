@@ -1,0 +1,14 @@
+warning[P1004]: File "multiple_level12_fails.circom" does not include pragma version. Assuming pragma version (2, 2, 0)
+ = At the beginning of file "multiple_level12_fails.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Invalid assignment: missing tags required by input signal. 
+ Missing tag: input signal in requires tag tag1
+   ┌─ "multiple_level12_fails.circom":55:5
+   │
+55 │     D()(aux1[1].b[0]);
+   │     ^^^^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found
