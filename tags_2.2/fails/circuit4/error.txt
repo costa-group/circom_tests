@@ -1,0 +1,11 @@
+error[T3001]: Out of bounds exception
+   ┌─ "circuit4/circuit4.circom":18:3
+   │
+18 │         out2[i] <== 0;
+   │         ^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->B
+      ->A
+
+previous errors were found

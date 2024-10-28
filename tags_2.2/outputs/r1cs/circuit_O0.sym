@@ -1,0 +1,8 @@
+1,1,1,main.anda
+2,2,1,main.prueba2.aux[0]
+3,3,1,main.prueba.aux[0].aux[0]
+4,4,0,main.a[0].out2[0]
+5,5,0,main.a[0].out2[1]
+6,6,0,main.a[0].out2[2]
+7,7,0,main.a[0].out.aux[0].aux[0]
+8,8,0,main.a[0].inter[0].aux[0].aux[0]

@@ -1,0 +1,41 @@
+error[T2049]: Typing error found
+   ┌─ "circuit3/circuit3.circom":34:6
+   │
+34 │     log(a[0].out.aux[0].aux.a); //It fails since tags should not be used with array accesses but in the component array.
+   │         ^^^^^^^^^^^^^^^^^^^^^ Invalid access to the tag of an array element: tags belong to complete arrays, not to individual positions.
+ Hint: instead of signal[pos].tag use signal.tag
+
+error[T2049]: Typing error found
+   ┌─ "circuit3/circuit3.circom":35:6
+   │
+35 │     log(a[0].out.aux.aux[0].a); //it fails since tags should not be used with array accesses but in the component array.
+   │         ^^^^^^^^^^^^^^^^^^^^^ Invalid access to the tag of an array element: tags belong to complete arrays, not to individual positions.
+ Hint: instead of signal[pos].tag use signal.tag
+
+error[T2049]: Typing error found
+   ┌─ "circuit3/circuit3.circom":36:6
+   │
+36 │     log(a[0].out[0].aux.aux.a); //it fails since tags should not be used with array accesses but in the component array.
+   │         ^^^^^^^^^^^^^^^^^^^^^ Invalid access to the tag of an array element: tags belong to complete arrays, not to individual positions.
+ Hint: instead of signal[pos].tag use signal.tag
+
+error[T2048]: Typing error found
+   ┌─ "circuit3/circuit3.circom":37:6
+   │
+37 │     log(a[0].out.aux[0].a); //First, it fails since a is not defined in S(). It should be b.
+   │         ^^^^^^^^^^^^^^^^^ Tag not found in signal: only accesses to tags that appear in the definition of the signal are allowed
+
+error[T2049]: Typing error found
+   ┌─ "circuit3/circuit3.circom":38:6
+   │
+38 │     log(a[0].out.aux[0].b); //When used correctly, it fails since tags should not be used with array accesses but in the component array.
+   │         ^^^^^^^^^^^^^^^^^ Invalid access to the tag of an array element: tags belong to complete arrays, not to individual positions.
+ Hint: instead of signal[pos].tag use signal.tag
+
+error[T2048]: Typing error found
+   ┌─ "circuit3/circuit3.circom":39:6
+   │
+39 │     log(a[0].out.aux.b.a); //When used correctly, it fails since after a tag cannot be accessed anything else.
+   │         ^^^^^^^^^^^^^^^^ Tag not found in signal: only accesses to tags that appear in the definition of the signal are allowed
+
+previous errors were found
