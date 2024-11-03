@@ -58,13 +58,13 @@ template A(){
         }
         
         if (iter == 0){
-            comp1[iter].out === var0;
+            var0 === comp1[iter].out;
         }
         if (iter == 1){
-            comp1[iter].out === var1;
+            var1 === comp1[iter].out;
         }
         if (iter == 2){
-            comp1[iter].out === var2;
+            var2 === comp1[iter].out;
         }
         
     }
