@@ -1,0 +1,14 @@
+1,1,4,main.out
+2,2,4,main.selector
+3,-1,3,main.cst.out[0]
+4,-1,3,main.cst.out[1]
+5,-1,1,main.mux.out
+6,-1,1,main.mux.c[0]
+7,-1,1,main.mux.c[1]
+8,-1,1,main.mux.s
+9,-1,0,main.mux.mux.out[0]
+10,-1,0,main.mux.mux.c[0][0]
+11,-1,0,main.mux.mux.c[0][1]
+12,-1,0,main.mux.mux.s
+13,-1,2,main.n2b.out[0]
+14,-1,2,main.n2b.in
