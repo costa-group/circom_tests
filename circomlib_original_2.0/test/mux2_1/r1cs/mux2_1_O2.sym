@@ -10,7 +10,7 @@
 10,-1,1,main.mux.c[2]
 11,-1,1,main.mux.c[3]
 12,3,1,main.mux.s[0]
-13,4,1,main.mux.s[1]
+13,-1,1,main.mux.s[1]
 14,-1,0,main.mux.mux.out[0]
 15,-1,0,main.mux.mux.c[0][0]
 16,-1,0,main.mux.mux.c[0][1]
@@ -18,11 +18,11 @@
 18,-1,0,main.mux.mux.c[0][3]
 19,-1,0,main.mux.mux.s[0]
 20,-1,0,main.mux.mux.s[1]
-21,5,0,main.mux.mux.a10[0]
-22,6,0,main.mux.mux.a1[0]
-23,7,0,main.mux.mux.a0[0]
+21,-1,0,main.mux.mux.a10[0]
+22,-1,0,main.mux.mux.a1[0]
+23,-1,0,main.mux.mux.a0[0]
 24,-1,0,main.mux.mux.a[0]
-25,8,0,main.mux.mux.s10
+25,-1,0,main.mux.mux.s10
 26,-1,2,main.n2b.out[0]
 27,-1,2,main.n2b.out[1]
 28,-1,2,main.n2b.in

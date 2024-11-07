@@ -35,6 +35,6 @@
 35,32,0,main.lt.n2b.out[28]
 36,33,0,main.lt.n2b.out[29]
 37,34,0,main.lt.n2b.out[30]
-38,35,0,main.lt.n2b.out[31]
-39,36,0,main.lt.n2b.out[32]
-40,37,0,main.lt.n2b.in
+38,-1,0,main.lt.n2b.out[31]
+39,-1,0,main.lt.n2b.out[32]
+40,-1,0,main.lt.n2b.in

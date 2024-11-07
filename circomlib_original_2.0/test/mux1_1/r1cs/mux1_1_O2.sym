@@ -1,5 +1,5 @@
 1,1,4,main.out
-2,2,4,main.selector
+2,-1,4,main.selector
 3,-1,3,main.cst.out[0]
 4,-1,3,main.cst.out[1]
 5,-1,1,main.mux.out
