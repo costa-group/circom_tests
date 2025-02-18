@@ -1,0 +1,16 @@
+warning[P1004]: File "simples1.circom" does not include pragma version. Assuming pragma version (2, 2, 1)
+ = At the beginning of file "simples1.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Exception caused by invalid assignment
+ Signal has been already assigned
+   ┌─ "simples1.circom":11:8
+   │
+11 │        out <-- 0;
+   │        --------- This is the previous assignment to the variable
+12 │        out <-- 5;
+   │        ^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found

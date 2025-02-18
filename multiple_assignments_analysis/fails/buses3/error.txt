@@ -1,0 +1,17 @@
+warning[P1004]: File "buses3.circom" does not include pragma version. Assuming pragma version (2, 2, 1)
+ = At the beginning of file "buses3.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Exception caused by invalid assignment
+ Signal has been already assigned
+   ┌─ "buses3.circom":21:8
+   │
+21 │        out.a[0] <-- in.a[0];
+   │        -------------------- This is the previous assignment to the variable
+   ·
+24 │    out.a <== in.a;
+   │    ^^^^^^^^^^^^^^ found here
+   │
+   = call trace:
+     ->A
+
+previous errors were found

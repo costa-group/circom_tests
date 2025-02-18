@@ -9,7 +9,8 @@ template A(){
     var exp_out[2][5] = [[3, 3, 3, 3, 3], [3, 5, 5, 5, 5]];
     for (var j = 0; j < 2; j++){
         for (var i = 0; i < 5; i++){
-          //log("Output[", j, "][", i, "]", aux[j][i]);
+          log("Output[", j, "][", i, "]", aux[j][i]);
+          log(" Expected Output[", j, "][", i, "]", exp_out[j][i]);
           aux[j][i] === exp_out[j][i];
         }
     }
@@ -20,7 +21,8 @@ template A(){
     //log("Expected output [[5, 5, 5], [5, 5, 5]]");
     for (var j = 0; j < 2; j++){
         for (var i = 0; i < 3; i++){
-          //log("Output[", j, "][", i, "]", aux1[j][i]);
+          log("Output[", j, "][", i, "]", aux1[j][i]);
+          log(" Expected Output[", j, "][", i, "]", exp_out1[j][i]);
           aux1[j][i] === exp_out1[j][i];
         }
     }

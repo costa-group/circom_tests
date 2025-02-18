@@ -1,0 +1,17 @@
+warning[P1004]: File "example_loop_fail.circom" does not include pragma version. Assuming pragma version (2, 2, 1)
+ = At the beginning of file "example_loop_fail.circom", you should add the directive "pragma circom <Version>", to indicate which compiler version you are using.
+
+error[T3001]: Exception caused by invalid assignment
+ Signal has been already assigned
+   ┌─ "example_loop_fail.circom":11:8
+   │
+11 │        out[i] <-- in;
+   │        ^^^^^^^^^^^^^
+   │        │
+   │        found here
+   │        This is the previous assignment to the variable
+   │
+   = call trace:
+     ->A
+
+previous errors were found
