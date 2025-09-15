@@ -1,0 +1,6 @@
+1,1,1,main.out
+2,-1,1,main.in1
+3,2,1,main.in2
+4,-1,0,main.a.out
+5,3,0,main.a.in1
+6,-1,0,main.a.in2

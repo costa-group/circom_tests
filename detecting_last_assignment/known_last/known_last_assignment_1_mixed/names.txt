@@ -1,0 +1,2 @@
+known_last_assignment_1_var.circom
+names.txt
