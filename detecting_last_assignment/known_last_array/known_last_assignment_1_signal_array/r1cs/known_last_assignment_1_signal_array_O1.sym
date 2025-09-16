@@ -1,0 +1,14 @@
+1,1,1,main.out
+2,2,1,main.in1[0]
+3,-1,1,main.in1[1]
+4,-1,1,main.in1[2]
+5,3,1,main.in2[0]
+6,-1,1,main.in2[1]
+7,-1,1,main.in2[2]
+8,-1,0,main.a.out
+9,-1,0,main.a.in1[0]
+10,-1,0,main.a.in1[1]
+11,-1,0,main.a.in1[2]
+12,-1,0,main.a.in2[0]
+13,-1,0,main.a.in2[1]
+14,-1,0,main.a.in2[2]
