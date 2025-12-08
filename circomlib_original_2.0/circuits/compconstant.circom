@@ -40,10 +40,17 @@ template CompConstant(ct) {
     var a = 1;
     var e = 1;
     var i;
+    var aux;
+    log(b);
 
     for (i=0;i<127; i++) {
+        log(i*2);
+        aux = ct >> (i*2);
+        log("Imprimiendo iteración", i, "solo el shift", aux);
         clsb = (ct >> (i*2)) & 1;
+        log("Imprimiendo iteracion", i, "valor", clsb);
         cmsb = (ct >> (i*2+1)) & 1;
+        log("Imprimiendo iteracion", i, "valor", cmsb);
         slsb = in[i*2];
         smsb = in[i*2+1];
 
@@ -66,6 +73,7 @@ template CompConstant(ct) {
 
     sout <== sum;
 
+    log (sout);
     component num2bits = Num2Bits(135);
 
     num2bits.in <== sout;

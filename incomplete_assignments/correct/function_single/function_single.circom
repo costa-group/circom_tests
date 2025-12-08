@@ -20,7 +20,7 @@ template A(){
     var exp_out[4] = [99,0,0,0];
     //log("Expected output [99, 0, 0, 0]");
     for (var i = 0; i < 4; i++){
-        log("Output[", i, "]", aux[i]);
+        log("1: Output[", i, "]", aux[i]);
         assert(exp_out[i] == aux[i]);
     }
     
@@ -28,7 +28,7 @@ template A(){
     exp_out = [1, 1, 1, 0];
     //log("Expected output [1, 1, 1, 0]");
     for (var i = 0; i < 4; i++){
-        log("Output[", i, "]", aux[i]);
+        log("2: Output[", i, "]", aux[i]);
         assert(exp_out[i] == aux[i]);
     }
     
@@ -36,7 +36,7 @@ template A(){
     exp_out = [2,2,2,2];
     //log("Expected output [2, 2, 2, 2]");
     for (var i = 0; i < 4; i++){
-        //log("Output[", i, "]", aux[i]);
+        log("3: Output[", i, "]", aux[i]);
         assert(exp_out[i] == aux[i]);
     }
     
