@@ -1,0 +1,2 @@
+wasm: Division by zero
+cpp: Division by zero in template/function

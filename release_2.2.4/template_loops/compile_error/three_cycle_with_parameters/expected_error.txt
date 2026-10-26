@@ -1,0 +1,2 @@
+error[T3001]
+Found loop in template calls

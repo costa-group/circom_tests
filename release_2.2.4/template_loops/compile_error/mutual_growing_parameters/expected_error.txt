@@ -1,0 +1,2 @@
+error[T3001]
+Too many nested template calls

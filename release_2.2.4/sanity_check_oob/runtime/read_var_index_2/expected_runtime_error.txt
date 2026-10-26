@@ -1,0 +1,2 @@
+wasm: Out of bounds array access
+cpp: Out of bounds exception

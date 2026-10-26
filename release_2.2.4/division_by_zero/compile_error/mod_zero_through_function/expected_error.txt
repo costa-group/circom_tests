@@ -1,0 +1,3 @@
+error[T3001]
+Division by zero
+->f

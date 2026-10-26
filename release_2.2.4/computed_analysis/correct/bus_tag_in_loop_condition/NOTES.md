@@ -1,0 +1,1 @@
+REGRESSION (6c3a24a, works with a22aeaf). Reduced from tags_2.2/outputs/circuit: since 6c3a24a the tag access in the loop condition is not folded and the HIR merger panics (merger.rs:663, unwrap on None).
